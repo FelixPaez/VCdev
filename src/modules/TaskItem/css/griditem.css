@@ -1,0 +1,39 @@
+
+.task-card {    
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: rgba(100, 100, 111, .2) .125rem -.0625rem .1875rem inset,
+          rgba(50, 50, 93, .25) .0625rem -.03125rem .0625rem inset,
+          rgba(0, 28, 34, .35) -.0625rem -.03125rem .0625rem inset,
+          #c0daae .000001px .00714259px .01428571px inset;
+    background-color: #fff;
+    transition: .3s ease-out;
+    margin: 1rem;
+    word-wrap: break-word; 
+   
+   }
+   .title-grid{
+    text-align: center;
+}
+   .task-card p{
+    text-align: left;
+   }
+
+
+.completegrid-task {
+    border: 1px solid var(--neutral-color);      
+    background-color: rgba(128, 128, 128, 0.3); 
+    opacity: 0.5; 
+ }
+ 
+.incompletegrid-task {
+    border: 1px solid var(--neutral-color); 
+    background-color: var(--tertiary-color); 
+ } 
+ 
+  .modal-button{
+    color: var(--delete-color);
+    margin-top: 0.25rem;
+    cursor: pointer;
+  }
+  

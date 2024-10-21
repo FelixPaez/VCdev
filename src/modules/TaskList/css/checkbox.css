@@ -1,0 +1,9 @@
+.checkbox-container{   
+    flex-direction: row;
+    align-items: center;
+    transition: border-color .3s ease;
+}
+
+.box{
+    cursor: pointer;
+}

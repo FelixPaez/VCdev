@@ -1,0 +1,36 @@
+
+.list-view th,
+.list-view td {  
+    padding: .5rem; 
+    text-align: center; 
+    word-wrap: break-word;
+    max-width: 200px;
+  }
+  
+.list-view th {
+    background-color: var(--neutral-color) ; 
+    color: whitesmoke;
+    padding: 18px;
+    font-size: 16px;
+  }
+  
+.incomplete-task{
+    background-color: var(--tertiary-color);
+}
+
+.complete-task {
+  background-color: rgba(128, 128, 128, 0.3); 
+  opacity: 0.5;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;     
+}
+
+.modal-button{
+  color: var(--delete-color);
+  margin-top: 0.25rem;
+  cursor: pointer;
+}
+

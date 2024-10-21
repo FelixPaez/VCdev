@@ -1,0 +1,62 @@
+.task-form {
+    background-color: #f9f9f9; 
+    padding: 1rem; 
+    border-radius: .5rem; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;     
+    margin-bottom: 1.5rem;    
+  }
+  
+  .task-form input,
+  .task-form textarea,
+  .task-form select {
+    width: 80%; 
+    padding: .5rem; 
+    margin-bottom: .5rem; 
+    border: 1px solid #ccc; 
+    border-radius: .25rem; 
+  }
+
+  .title{
+    text-align: left;
+    color: var(--neutral-color);
+  }
+
+  .button-form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+    margin-top: 10px;   
+  }
+
+  .task-form-button{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  cursor: pointer; 
+  transition: background-color .4s ease;
+  border: none; 
+  border-radius: .25rem;
+  padding: .5rem ;  
+  } 
+
+  .save{
+    background-color: var(--secondary-color);
+    color: whitesmoke;
+    
+  }
+
+.save:hover {
+  background-color: #225e3e; 
+}
+
+.back{
+  background-color: var(--primary-color);
+  color: whitesmoke;
+}
+
+.back:hover {
+  background-color: #2f688f; 
+  
+}
+  

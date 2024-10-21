@@ -1,0 +1,12 @@
+.select-filter {
+    padding: 0.5rem 1rem; 
+    border: 1px solid #ccc; 
+    border-radius: .25rem; 
+    background-color: var(--filter-color); 
+    cursor: pointer; 
+    transition: border-color .3s ease; 
+  }
+
+  .select-filter:hover {
+    background-color: #c79b22; 
+  }

@@ -1,0 +1,42 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px; 
+ 
+  }
+
+  .task-button {
+    padding: .25rem ;      
+    color: whitesmoke; 
+    border: none; 
+    border-radius: .25rem;
+    cursor: pointer; 
+    transition: background-color .4s ease;
+  }
+
+  .complete{
+    background-color: var(--secondary-color);
+  }
+
+  .delete{
+    background-color: var(--delete-color);
+  }
+
+  .edit{
+    background-color: var(--primary-color);
+  }
+  
+  .complete:hover {
+    background-color: #225e3e; 
+  }
+  .delete:hover {
+    background-color: #6d2a23; 
+  }
+   
+  .edit:hover {
+    background-color: #2f688f; 
+  }
+   
+
+  
+   

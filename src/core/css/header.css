@@ -1,0 +1,12 @@
+.header {
+    background-color: var(--neutral-color) ;     
+    padding: 14px;    
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    text-align: left;
+}
+
+.title-header{
+    text-decoration: none;
+    color: whitesmoke;
+}
